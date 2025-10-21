@@ -1,8 +1,9 @@
 <div align="center">
-  <h1>AwesomeHub </h1>
+  <h1>AwesomeHub</h1>
   <p>A modern, searchable hub for all "Awesome XYZ" lists on GitHub</p>
+  
+[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-orange?style=for-the-badge)](https://hacktoberfest.digitalocean.com/)
 
-  [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-orange?style=for-the-badge)](https://hacktoberfest.digitalocean.com/)
 </div>
 
 ## About
@@ -17,8 +18,8 @@ AwesomeHub is a centralized platform that aggregates, categorizes, and makes dis
 - **Trending**: Discover trending and newly added awesome lists
 
 ## Visual Tour
-   <img width="1902" height="990" alt="image" src="https://github.com/user-attachments/assets/2476fb68-3ef8-4dc9-94fc-afacd23f8063" />
 
+<img width="1902" height="990" alt="image" src="./assets/images/homepage.jpg" />
 
 ## Quick Start
 
@@ -53,19 +54,31 @@ AwesomeHub is a centralized platform that aggregates, categorizes, and makes dis
     ```
 
 **Note**: The application works without a GitHub token but will have lower rate limits. Adding a token is recommended for development.
+
+## Tech Stack
+
+- **Frontend**: Next.js 14, React, TypeScript
+- **Styling**: Tailwind CSS, Shadcn UI
+- **Data**: GitHub GraphQL API
+- **Deployment**: Vercel
+
 ## Contributing
 
-We welcome contributions of all skill levels! This project is designed to provide meaningful contribution opportunities for **Hacktoberfest 2025** participants.
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-For comprehensive contribution guidelines, development setup, coding standards, and project structure, please see the **[Contributing Guide](CONTRIBUTING.md)**.
+### How to Contribute
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## Acknowledgments
 
-<div align="center">
-  <p>Made with ❤️ for the developer community</p>
-  <p>⭐ Star this repository if you find it useful!</p>
-</div>
+- Inspired by the amazing [Awesome](https://github.com/sindresorhus/awesome) lists community
+- Built with ❤️ by the open source community
